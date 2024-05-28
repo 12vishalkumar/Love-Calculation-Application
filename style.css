@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(185, 183, 183);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+     box-shadow: inset -8px -8px 12px rgb(223, 76, 191), inset 8px 8px 12px rgb(241, 77, 228);
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    color: #c0294c;
+    font-family: 'Cursive', sans-serif;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.inputarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.inputarea input {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 5px 0;
+    outline: none;
+    border: 2px solid #141414;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #f4f5f5;
+}
+
+#NameOne, #NameTwo {
+    color: rgb(183, 14, 14);
+    font-weight: bold;
+}
+
+button {
+    width: 80%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0a4bad;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #066623;
+}
+
+#print {
+    background-color: #9c0629;
+    margin: 20px 0;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Cursive', sans-serif;
+    border-radius: 5px;
+    display: none;
+}
+
+#statement {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Cursive', sans-serif;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .inputarea input {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    #print, #statement {
+        font-size: 0.9rem;
+    }
+}
