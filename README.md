@@ -2,6 +2,8 @@
 
 This project is a simple web application that allows users to calculate the percentage of love compatibility between two names. The project consists of HTML, CSS, and JavaScript files.
 
+### Click the Go Live button and see the live👉 [Go Live](https://12vishalkumar.github.io/Love-Calculation-Application)
+
 ## File Structure
 
 - `index.html`: The main HTML file that contains the structure of the web page.
